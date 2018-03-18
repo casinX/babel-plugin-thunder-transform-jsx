@@ -1,0 +1,7 @@
+src/
+.git/
+.babelrc
+.gitignore
+.npmignore
+package-lock.json
+
