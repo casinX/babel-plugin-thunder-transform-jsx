@@ -31,7 +31,7 @@ export default function ({ types: t }) {
     } = state.opts;
 
     const useNew = false;
-    const constructorFunction = 'e.__changeElement';
+    const constructorFunction = 'this.__changeElement';
     const useVariables = true;
 
     let variablesRegex, jsxObjectTransformer;
