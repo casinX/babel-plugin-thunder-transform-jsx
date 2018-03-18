@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-thunder-transform-jsx",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casinX/babel-plugin-thunder-transform-jsx.git"
+  },
+  "keywords": [
+    "thunder"
+  ],
+  "author": "casinX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casinX/babel-plugin-thunder-transform-jsx/issues"
+  },
+  "homepage": "https://github.com/casinX/babel-plugin-thunder-transform-jsx#readme",
+  "dependencies": {
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "esutils": "^2.0.2",
+    "lodash.ary": "^4.1.1",
+    "lodash.identity": "^3.0.0",
+    "lodash.isstring": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
